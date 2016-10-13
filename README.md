@@ -1,1 +1,7 @@
 # codesamples
+
+I really just copy-pasted the code into two .js files, since I suppose you want to see my actual programming style. This has the disadvantage of being probably more difficult to read, as the naming and commenting only had to make sense for me until now and is mainly in German. However, if you like, I am happy to put more comments into the code and translate them for you.
+
+The first sample (finance_app) contains the filter and main class regarding Date operations for the financial management app I wrote for my family (which is like an advanced revenue and spending report). This is the first major project I created with angular.js and where I started loving it. The filter returns the quarter, semester, weeknumber, number of days in the month or the year of the first day of the first weeknumber for any given Date object. The service 'eaData' manages all date operations in the background (e.g. the user changes the view from month to week) and fetches data from the database. Also it handles new entries (like revenues). FYI: The screenshot shows our actual balance of october 2014, so my wife insisted I cross it out.
+
+The second sample is part of my CMS and shows the JS of a reusable image gallery, which I need for product or category images, the text-editor, image-galleries on the homepage,etc. Features: file selection, file system management, multiple uploads - using a modified version of the FileUpload plugin with overwrite protection and multiple views.
